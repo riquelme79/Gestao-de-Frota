@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #eef2f5;
+  margin: 0;
+  padding: 40px 20px;
+  color: #2b2f33;
+}
+
+h1 {
+  text-align: center;
+  color: #1b2a38;
+  margin-bottom: 5px;
+}
+
+p.subtitulo {
+  text-align: center;
+  color: #6b7580;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 400px;
+  margin: 0 auto 35px auto;
+}
+
+.formulario h3 {
+  margin-top: 0;
+  color: #1b2a38;
+}
+
+.formulario label {
+  font-size: 13px;
+  color: #6b7580;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #d3d9de;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.formulario input:focus {
+  outline: none;
+  border-color: #2e7d32;
+}
+
+.formulario button {
+  width: 100%;
+  padding: 11px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #256428;
+}
+
+table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #1b2a38;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+td {
+  border-top: 1px solid #eef2f5;
+  font-size: 14px;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.status.ok {
+  background-color: #d5efd8;
+  color: #256428;
+}
+
+.status.urgente {
+  background-color: #fbdada;
+  color: #b3261e;
+}
+
+#vazio {
+  text-align: center;
+  color: #9aa3ab;
+  max-width: 700px;
+  margin: 20px auto;
+}
